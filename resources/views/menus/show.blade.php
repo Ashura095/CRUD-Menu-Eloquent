@@ -4,7 +4,7 @@
 @section('content')
     <div class="container">
         <h2>{{ $menu->title }}</h2>
-        <p><strong>Menu:</strong> {{ $menu->detail->deskripsi }}</p>
+        <p><strong>Deskripsi:</strong> {{ $menu->detail->deskripsi }}</p>
         <p><strong>Tanggal:</strong> {{ $menu->detail->tanggal_ubah }}</p>
         <a href="{{ route('menus.index') }}" class="btn btn-primary">Kembali</a>
     </div>
